@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:textAlignment="center"
+    android:background="@android:color/black"
+    android:weightSum="1"
+    tools:context=".MainActivity"
+    tools:ignore="RtlCompat">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Enter Two Numbers"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:textSize="30dp"
+        android:layout_weight="0.02" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:elevation="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="add"
+            android:background="@android:color/holo_green_dark"/>
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="Sub"
+            android:background="@android:color/holo_red_dark"/>
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="Multi"
+            android:background="@android:color/holo_orange_dark"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:text="Remind"
+            android:layout_weight="0.03"
+            android:background="@android:color/holo_purple"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:id="@+id/button5"
+            android:text="Clear"
+            android:background="@android:color/holo_blue_light"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.06"
+        android:background="@android:color/black"
+        android:gravity="center_horizontal"
+        android:text="Result"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        android:gravity="center_horizontal"
+        android:textSize="10dp"/>
+</LinearLayout>
